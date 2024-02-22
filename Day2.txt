@@ -1,0 +1,16 @@
+Problem troubleshooting alternatives:
+    - check vm is enabled in bios
+    - start+R ->  appwiz.cpl -> turn windows features on -> uncheck ______ , ______ if checked
+    run commands - SET PATH=%PATH%;C:\Program Files\Oracle\VirtualBox
+                 -  VBoxManage modifyvm "GNS3 VM" --nested-hw-virt on
+open Gns3
+  - Install cisco 3725, cisco 7200
+  - Instal switches
+  - topology
+  - conf ips
+  - check connectivity
+hash functions, md5 collision, 
+Limitations of using L3 devices L2.
+Idle-pc
+Integrity check - certutil -hashfile /filepath cryptographic hash function(Md5, sha256, sha512...)
+                     = > compare generated chars with the file in the website of the provider.
